@@ -12,5 +12,5 @@
 Для установки используйте следущее
 
 ```
-wget http://65.108.88.180/install.sh && chmod +x install.sh && ./install.sh
+wget -O - https://mirror.gravit-support.ru/scripts/intall_from_github_releases_with_jdk.sh | bash <(cat) </dev/tty
 ```
