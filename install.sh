@@ -45,7 +45,6 @@ tar -xzf $jdk_link_filename
 # Download latest LaunchServer
 echo -e "${CLR_92}Phase 3: ${CLR_93}Download LaunchServer${CLR_R}"
 wget ${ARG_WGET_other} https://github.com/GravitLauncher/Launcher/releases/latest/download/LaunchServer.jar
-wget ${ARG_WGET_other} https://github.com/GravitLauncher/Launcher/releases/latest/download/LauncherAuthlib.jar
 wget ${ARG_WGET_other} https://github.com/GravitLauncher/Launcher/releases/latest/download/ServerWrapper.jar
 wget ${ARG_WGET_other} https://github.com/GravitLauncher/Launcher/releases/latest/download/libraries.zip
 echo -e "${CLR_92}Phase 4: ${CLR_93}Unpack LaunchServer${CLR_R}"
